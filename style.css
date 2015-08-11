@@ -13,7 +13,7 @@
     left: 0;
     top: 0;
     bottom: 0;
-    background: url('menu-cont.png');
+    background: url('images/menu-cont.png');
     background-size: 100%;
     z-index: 1;
     opacity: 0.8;
@@ -23,7 +23,7 @@
 .hand {
     width: 88px;
     height: 88px;
-    background: url('menu-handler.png');
+    background: url('images/menu-handler.png');
     background-size: 100%;
     position: absolute;
     left: 106px;
@@ -71,7 +71,7 @@ cursor: pointer;
 }
 
 .menu-icon {
-background: url('home-icon.png');
+background: url('images/home-icon.png');
 width: 30%;
 height: 30%;
 background-size: 100%;
