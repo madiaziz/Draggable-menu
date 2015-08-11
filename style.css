@@ -1,0 +1,142 @@
+			body {
+				background-color: #000000;
+				margin: 0;
+				overflow: hidden;
+			}
+
+
+.bg {
+    width: 300px;
+    height: 260px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background: url('menu-cont.png');
+    background-size: 100%;
+    z-index: 1;
+    opacity: 0.8;
+    transform: scale(0.9);
+    margin: auto;
+}
+.hand {
+    width: 88px;
+    height: 88px;
+    background: url('menu-handler.png');
+    background-size: 100%;
+    position: absolute;
+    left: 106px;
+    top: 63px;
+    cursor: -webkit-grab;
+}
+.null {
+width: 88px;
+height: 88px;
+position: absolute;
+left: 106px;
+top: 63px;
+pointer-events: none;
+}
+
+.null-right {
+width: 88px;
+height: 88px;
+position: absolute;
+left: 201px;
+top: 8px;
+opacity: 0;
+
+cursor: pointer;
+}
+
+.null-left {
+width: 88px;
+height: 88px;
+position: absolute;
+left: 11px;
+top: 8px;
+opacity: 0;
+cursor: pointer;
+}
+
+.null-bottom {
+width: 88px;
+height: 88px;
+position: absolute;
+left: 106px;
+top: 173px;
+opacity: 0;
+cursor: pointer;
+}
+
+.menu-icon {
+background: url('home-icon.png');
+width: 30%;
+height: 30%;
+background-size: 100%;
+top: 0;
+bottom: 0;
+right: 0;
+left: 0;
+margin: auto;
+position: absolute;
+}
+.null-center {
+width: 88px;
+height: 88px;
+position: absolute;
+left: 106px;
+top: 60px;
+opacity: 0;
+cursor: pointer;
+display:none;
+}
+.null-hover-home::before {
+width: 0;
+height: 0;
+border-left: 10px solid transparent;
+border-right: 10px solid transparent;
+border-top: 10px solid rgba(63, 87, 112, 1);
+position: absolute;
+top: 28px;
+left: 30px;
+content: "";
+}
+
+.null-hover::before {
+    width: 0;  height: 0;  border-left: 10px solid transparent;  border-right: 10px solid transparent;  border-bottom: 10px solid rgba(63, 87, 112, 1);  
+    position: absolute;  
+    top: -10px;  
+    left: 30px;  content: "";
+}
+span.null-hover-home {
+width: 80px;
+position: absolute;
+top: -30px;
+color: white;
+text-align: center;
+left: 5px;
+padding: 5px 0px;
+background: rgba(63, 87, 112, 1);
+border-radius: 3px;
+/* opacity: 0; */
+font-family: sans-serif;
+}
+span.null-hover {
+    width: 80px;  position: absolute;  
+    top: 90px;  color: white;  text-align: center;  
+    left: 5px;  padding: 5px 0px;  background: rgba(63, 87, 112, 1);  border-radius: 3px;  /* opacity: 0; */  font-family: sans-serif;
+}
+.null-bottom:hover {
+    opacity: 1;
+}
+.null-left:hover {
+    opacity: 1;
+}
+.null-right:hover {
+    opacity: 1;
+}
+.null-center:hover {
+    opacity: 1;
+}
